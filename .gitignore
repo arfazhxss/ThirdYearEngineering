@@ -1,0 +1,4 @@
+# Ignore all .git directories except the one at root
+**/.git/
+!.git/
+
