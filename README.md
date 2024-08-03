@@ -1,7 +1,6 @@
 # Directory Structure
 
 ```
-├── .DS_Store
 ├── direc.sh
 ├── .gitmodules
 ├── README.md
@@ -13,7 +12,6 @@
 │   ├── Midterm_Exam_Solution.pdf
 ├── 1 Summer 2024/
 │   ├── 0 ECE 260 A01 T02/
-│   │   ├── .DS_Store
 │   │   ├── Pagination.png
 │   │   ├── direc.sh
 │   │   ├── Signals_And_Systems_2E_Oppenheim_Solutions.pdf
@@ -196,24 +194,19 @@
 │   │   │   │   │   ├── lecture_examples_57-60.pdf
 │   │   │   │   │   ├── lecture_examples_61-64.pdf
 │   │   │   ├── 3 Submissions/
-│   │   │   │   ├── .DS_Store
 │   │   │   │   ├── Assignments.pdf
 │   │   │   │   ├── Assignment 6/
 │   │   │   │   │   ├── A6B.pdf
 │   │   │   │   │   ├── A6A.pdf
 │   │   │   │   ├── Assignment 1/
 │   │   │   │   │   ├── A1.pdf
-│   │   │   │   │   ├── .DS_Store
 │   │   │   │   ├── Assignment 4/
 │   │   │   │   │   ├── A4.pdf
-│   │   │   │   │   ├── .DS_Store
 │   │   │   │   ├── Assignment 3/
-│   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   ├── A3B.pdf
 │   │   │   │   │   ├── A3A.pdf
 │   │   │   │   ├── Assignment 2/
 │   │   │   │   │   ├── A2B.pdf
-│   │   │   │   │   ├── .DS_Store
 │   │   │   │   ├── Assignment 5/
 │   │   │   │   │   ├── A5A.pdf
 │   │   │   │   │   ├── A5B.pdf
@@ -289,7 +282,6 @@
 │   │   │   ├── A6b S F20.pdf
 │   │   │   ├── A6b S F22.pdf
 │   │   │   ├── A6a S F13.pdf
-│   │   │   ├── .DS_Store
 │   │   │   ├── A3b S F22.pdf
 │   │   │   ├── A3b S F23.pdf
 │   │   │   ├── A5a S F20.pdf
@@ -425,7 +417,6 @@
 │   │   │   │   ├── formula-sheet-6.png
 │   │   │   │   ├── renar.py
 │   │   │   │   ├── formula-sheet-2.png
-│   │   │   │   ├── .DS_Store
 │   │   │   │   ├── formula-sheet-3.png
 │   │   │   │   ├── formula-sheet-1.png
 │   │   │   │   ├── fourier-series-table.pdf
@@ -519,7 +510,30 @@
 │   │   │   │   │   ├── lecture_examples_33-36.pdf
 │   │   │   │   │   ├── lecture_examples_21-24.pdf
 │   │   │   │   │   ├── lecture_examples_29-32.pdf
-│   │   │   │   ├── 4 SolutionsE1/
+│   │   │   │   ├── 4 SolutionsE1 /
+│   │   │   │   │   ├── Example 3-12.pdf
+│   │   │   │   │   ├── Example 3-10.pdf
+│   │   │   │   │   ├── Example 2-6.pdf
+│   │   │   │   │   ├── Example 2-7.pdf
+│   │   │   │   │   ├── Example 3-11.pdf
+│   │   │   │   │   ├── Example 3-15.pdf
+│   │   │   │   │   ├── Example 2-2.pdf
+│   │   │   │   │   ├── Example 3-28.pdf
+│   │   │   │   │   ├── Example 3-16.pdf
+│   │   │   │   │   ├── Example 3-4.pdf
+│   │   │   │   │   ├── Example 3-2.pdf
+│   │   │   │   │   ├── Example 3-9.pdf
+│   │   │   │   │   ├── Example 3-8.pdf
+│   │   │   │   │   ├── Example 3-41.pdf
+│   │   │   │   │   ├── Example 3-32.pdf
+│   │   │   │   │   ├── Example 3-33.pdf
+│   │   │   │   │   ├── Example 3-27.pdf
+│   │   │   │   │   ├── Example 3-19.pdf
+│   │   │   │   │   ├── Example 3-24.pdf
+│   │   │   │   │   ├── Example 3-20.pdf
+│   │   │   │   │   ├── Example 3-35.pdf
+│   │   │   │   │   ├── Example 3-23.pdf
+│   │   │   │   │   ├── Example 3-36.pdf
 │   │   │   │   ├── 6 Tutorials/
 │   │   │   │   │   ├── T01_ECE 260.pdf
 │   │   │   │   │   ├── Tutorial 02.pptx
