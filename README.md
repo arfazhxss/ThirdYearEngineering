@@ -2,9 +2,7 @@
 
 ```
 ├── direc.sh
-├── .gitmodules
 ├── README.md
-├── .gitignore
 ├── route.sh
 ├── 9 F24 Resources/
 │   ├── IMG_6382.jpg
@@ -1119,12 +1117,10 @@
 │   │   │   │   │   ├── gif.h
 │   │   │   │   │   ├── README.md
 │   │   │   │   ├── eigen/
-│   │   │   │   │   ├── .hgeol
 │   │   │   │   │   ├── COPYING.LGPL
 │   │   │   │   │   ├── INSTALL
 │   │   │   │   │   ├── CMakeLists.txt
 │   │   │   │   │   ├── CTestConfig.cmake
-│   │   │   │   │   ├── .hgignore
 │   │   │   │   │   ├── COPYING.BSD
 │   │   │   │   │   ├── signature_of_eigen3_matrix_library
 │   │   │   │   │   ├── COPYING.MPL2
@@ -1251,7 +1247,6 @@
 │   │   │   │   │   │   │   │   │   ├── main.cpp
 │   │   │   │   │   │   │   │   ├── mtl4/
 │   │   │   │   │   │   │   │   │   ├── CMakeLists.txt
-│   │   │   │   │   │   │   │   │   ├── .kdbgrc.main
 │   │   │   │   │   │   │   │   │   ├── mtl4_LU_solve_interface.hh
 │   │   │   │   │   │   │   │   │   ├── mtl4_interface.hh
 │   │   │   │   │   │   │   │   │   ├── main.cpp
@@ -2718,7 +2713,6 @@
 │   │   │   │   │   │   │   ├── DenseBase_LinSpaced.cpp
 │   │   │   │   │   │   │   ├── Tutorial_Map_rowmajor.cpp
 │   │   │   │   │   │   │   ├── MatrixBase_transpose.cpp
-│   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   ├── MatrixBase_template_int_int_topLeftCorner_int_int.cpp
 │   │   │   │   │   │   │   ├── Cwise_boolean_not.cpp
 │   │   │   │   │   │   │   ├── FullPivLU_kernel.cpp
@@ -2805,7 +2799,6 @@
 │   │   │   │   │   │   │   ├── class_VectorBlock.cpp
 │   │   │   │   │   │   │   ├── matrixfree_cg.cpp
 │   │   │   │   │   │   │   ├── Tutorial_ArrayClass_addition.cpp
-│   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   ├── TutorialInplaceLU.cpp
 │   │   │   │   │   │   │   ├── DenseBase_middleCols_int.cpp
 │   │   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
@@ -3012,7 +3005,6 @@
 │   │   │   │   │   │   │   │   │   ├── CMakeCXXCompilerId.o
 │   │   │   │   │   │   │   │   │   ├── CMakeCXXCompilerId.cpp
 │   │   │   │   │   ├── eigen-3.4.0/
-│   │   │   │   │   │   ├── .hgeol
 │   │   │   │   │   │   ├── COPYING.LGPL
 │   │   │   │   │   │   ├── INSTALL
 │   │   │   │   │   │   ├── CMakeLists.txt
@@ -3023,9 +3015,7 @@
 │   │   │   │   │   │   ├── COPYING.MPL2
 │   │   │   │   │   │   ├── README.md
 │   │   │   │   │   │   ├── COPYING.GPL
-│   │   │   │   │   │   ├── .gitignore
 │   │   │   │   │   │   ├── COPYING.README
-│   │   │   │   │   │   ├── .gitlab-ci.yml
 │   │   │   │   │   │   ├── eigen3.pc.in
 │   │   │   │   │   │   ├── CTestCustom.cmake.in
 │   │   │   │   │   │   ├── COPYING.MINPACK
@@ -3147,7 +3137,6 @@
 │   │   │   │   │   │   │   │   │   │   ├── main.cpp
 │   │   │   │   │   │   │   │   │   ├── mtl4/
 │   │   │   │   │   │   │   │   │   │   ├── CMakeLists.txt
-│   │   │   │   │   │   │   │   │   │   ├── .kdbgrc.main
 │   │   │   │   │   │   │   │   │   │   ├── mtl4_LU_solve_interface.hh
 │   │   │   │   │   │   │   │   │   │   ├── mtl4_interface.hh
 │   │   │   │   │   │   │   │   │   │   ├── main.cpp
@@ -4600,7 +4589,6 @@
 │   │   │   │   │   │   │   │   ├── DenseBase_LinSpaced.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_Map_rowmajor.cpp
 │   │   │   │   │   │   │   │   ├── MatrixBase_transpose.cpp
-│   │   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   │   ├── MatrixBase_template_int_int_topLeftCorner_int_int.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_std_sort_rows_cxx11.cpp
 │   │   │   │   │   │   │   │   ├── Cwise_boolean_not.cpp
@@ -4693,7 +4681,6 @@
 │   │   │   │   │   │   │   │   ├── class_VectorBlock.cpp
 │   │   │   │   │   │   │   │   ├── matrixfree_cg.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_ArrayClass_addition.cpp
-│   │   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   │   ├── TutorialInplaceLU.cpp
 │   │   │   │   │   │   │   │   ├── DenseBase_middleCols_int.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
@@ -5203,12 +5190,10 @@
 │   │   │   │   │   │   │   ├── gif.h
 │   │   │   │   │   │   │   ├── README.md
 │   │   │   │   │   │   ├── eigen/
-│   │   │   │   │   │   │   ├── .hgeol
 │   │   │   │   │   │   │   ├── COPYING.LGPL
 │   │   │   │   │   │   │   ├── INSTALL
 │   │   │   │   │   │   │   ├── CMakeLists.txt
 │   │   │   │   │   │   │   ├── CTestConfig.cmake
-│   │   │   │   │   │   │   ├── .hgignore
 │   │   │   │   │   │   │   ├── COPYING.BSD
 │   │   │   │   │   │   │   ├── signature_of_eigen3_matrix_library
 │   │   │   │   │   │   │   ├── COPYING.MPL2
@@ -5335,7 +5320,6 @@
 │   │   │   │   │   │   │   │   │   │   │   ├── main.cpp
 │   │   │   │   │   │   │   │   │   │   ├── mtl4/
 │   │   │   │   │   │   │   │   │   │   │   ├── CMakeLists.txt
-│   │   │   │   │   │   │   │   │   │   │   ├── .kdbgrc.main
 │   │   │   │   │   │   │   │   │   │   │   ├── mtl4_LU_solve_interface.hh
 │   │   │   │   │   │   │   │   │   │   │   ├── mtl4_interface.hh
 │   │   │   │   │   │   │   │   │   │   │   ├── main.cpp
@@ -6802,7 +6786,6 @@
 │   │   │   │   │   │   │   │   │   ├── DenseBase_LinSpaced.cpp
 │   │   │   │   │   │   │   │   │   ├── Tutorial_Map_rowmajor.cpp
 │   │   │   │   │   │   │   │   │   ├── MatrixBase_transpose.cpp
-│   │   │   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   │   │   ├── MatrixBase_template_int_int_topLeftCorner_int_int.cpp
 │   │   │   │   │   │   │   │   │   ├── Cwise_boolean_not.cpp
 │   │   │   │   │   │   │   │   │   ├── FullPivLU_kernel.cpp
@@ -6889,7 +6872,6 @@
 │   │   │   │   │   │   │   │   │   ├── class_VectorBlock.cpp
 │   │   │   │   │   │   │   │   │   ├── matrixfree_cg.cpp
 │   │   │   │   │   │   │   │   │   ├── Tutorial_ArrayClass_addition.cpp
-│   │   │   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   │   │   ├── TutorialInplaceLU.cpp
 │   │   │   │   │   │   │   │   │   ├── DenseBase_middleCols_int.cpp
 │   │   │   │   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
@@ -7321,7 +7303,6 @@
 │   │   │   │   │   │   │   │   │   ├── CMakeCXXCompilerId.o
 │   │   │   │   │   │   │   │   │   ├── CMakeCXXCompilerId.cpp
 │   │   │   │   │   ├── eigen-3.4.0/
-│   │   │   │   │   │   ├── .hgeol
 │   │   │   │   │   │   ├── COPYING.LGPL
 │   │   │   │   │   │   ├── INSTALL
 │   │   │   │   │   │   ├── CMakeLists.txt
@@ -7332,9 +7313,7 @@
 │   │   │   │   │   │   ├── COPYING.MPL2
 │   │   │   │   │   │   ├── README.md
 │   │   │   │   │   │   ├── COPYING.GPL
-│   │   │   │   │   │   ├── .gitignore
 │   │   │   │   │   │   ├── COPYING.README
-│   │   │   │   │   │   ├── .gitlab-ci.yml
 │   │   │   │   │   │   ├── eigen3.pc.in
 │   │   │   │   │   │   ├── CTestCustom.cmake.in
 │   │   │   │   │   │   ├── COPYING.MINPACK
@@ -7456,7 +7435,6 @@
 │   │   │   │   │   │   │   │   │   │   ├── main.cpp
 │   │   │   │   │   │   │   │   │   ├── mtl4/
 │   │   │   │   │   │   │   │   │   │   ├── CMakeLists.txt
-│   │   │   │   │   │   │   │   │   │   ├── .kdbgrc.main
 │   │   │   │   │   │   │   │   │   │   ├── mtl4_LU_solve_interface.hh
 │   │   │   │   │   │   │   │   │   │   ├── mtl4_interface.hh
 │   │   │   │   │   │   │   │   │   │   ├── main.cpp
@@ -8909,7 +8887,6 @@
 │   │   │   │   │   │   │   │   ├── DenseBase_LinSpaced.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_Map_rowmajor.cpp
 │   │   │   │   │   │   │   │   ├── MatrixBase_transpose.cpp
-│   │   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   │   ├── MatrixBase_template_int_int_topLeftCorner_int_int.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_std_sort_rows_cxx11.cpp
 │   │   │   │   │   │   │   │   ├── Cwise_boolean_not.cpp
@@ -9002,7 +8979,6 @@
 │   │   │   │   │   │   │   │   ├── class_VectorBlock.cpp
 │   │   │   │   │   │   │   │   ├── matrixfree_cg.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_ArrayClass_addition.cpp
-│   │   │   │   │   │   │   │   ├── .krazy
 │   │   │   │   │   │   │   │   ├── TutorialInplaceLU.cpp
 │   │   │   │   │   │   │   │   ├── DenseBase_middleCols_int.cpp
 │   │   │   │   │   │   │   │   ├── Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
@@ -10430,24 +10406,15 @@
 │   │   │   ├── assn-4.docx
 │   │   ├── 4 WireShark/
 │   │   │   ├── wireshark.dox
-│   │   │   ├── .editorconfig
-│   │   │   ├── .gitignore
-│   │   │   ├── .gitattributes
 │   │   │   ├── ws_version.h.in
-│   │   │   ├── .cirrus.yml
 │   │   │   ├── wka
-│   │   │   ├── .gitlab-ci.yml
-│   │   │   ├── .mailmap
-│   │   │   ├── .travis.yml
 │   │   │   ├── wsutil/
 │   │   │   │   ├── CMakeLists.txt
 │   │   │   │   ├── dftest.c
 │   │   │   │   ├── AUTHORS
-│   │   │   │   ├── .editorconfig
 │   │   │   │   ├── NEWS
 │   │   │   │   ├── extcap.c
 │   │   │   │   ├── capture_opts.c
-│   │   │   │   ├── .gitlab-ci.yml
 │   │   │   │   ├── file.c
 │   │   │   │   ├── editcap.c
 │   │   │   │   ├── sharkd_session.c
@@ -10635,7 +10602,6 @@
 │   │   │   │   │   ├── expert.c
 │   │   │   │   │   ├── pci-ids.c
 │   │   │   │   │   ├── stats_tree.h
-│   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   ├── prefs.h
 │   │   │   │   │   ├── column-info.h
 │   │   │   │   │   ├── etypes.h
@@ -10889,7 +10855,6 @@
 │   │   │   │   │   ├── globals.h
 │   │   │   │   │   ├── reordercap.c
 │   │   │   │   │   ├── tshark.c
-│   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   ├── CODE_OF_CONDUCT.adoc
 │   │   │   │   │   ├── README.md
 │   │   │   │   │   ├── appveyor.yml
@@ -10900,30 +10865,24 @@
 │   │   │   │   │   ├── sync_pipe.h
 │   │   │   │   │   ├── doxygen.cfg.in
 │   │   │   │   │   ├── NEWS
-│   │   │   │   │   ├── .gitignore
 │   │   │   │   │   ├── README.linux
 │   │   │   │   │   ├── CONTRIBUTING.md
 │   │   │   │   │   ├── CMakeListsCustom.txt.example
-│   │   │   │   │   ├── .gitattributes
 │   │   │   │   │   ├── ws_version.h.in
 │   │   │   │   │   ├── extcap.c
 │   │   │   │   │   ├── captype.c
 │   │   │   │   │   ├── Vagrantfile
 │   │   │   │   │   ├── dumpcap.c
-│   │   │   │   │   ├── .cirrus.yml
 │   │   │   │   │   ├── wka
 │   │   │   │   │   ├── capture_opts.c
-│   │   │   │   │   ├── .gitlab-ci.yml
 │   │   │   │   │   ├── file.c
 │   │   │   │   │   ├── mmdbresolve.c
 │   │   │   │   │   ├── fileset.c
 │   │   │   │   │   ├── tfshark.c
 │   │   │   │   │   ├── sharkd.c
-│   │   │   │   │   ├── .mailmap
 │   │   │   │   │   ├── WiresharkConfig.cmake.in
 │   │   │   │   │   ├── editcap.c
 │   │   │   │   │   ├── capinfos.c
-│   │   │   │   │   ├── .travis.yml
 │   │   │   │   │   ├── README.bsd
 │   │   │   │   │   ├── ConfigureChecks.cmake
 │   │   │   │   │   ├── cfile.h
@@ -11822,7 +11781,6 @@
 │   │   │   │   │   │   │   ├── tap-gsm_astat.c
 │   │   │   │   │   │   │   ├── tap-srt.c
 │   │   │   │   │   │   │   ├── tshark-tap.h
-│   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   ├── tap-rlcltestat.c
 │   │   │   │   │   │   │   ├── tap-voip.h
 │   │   │   │   │   │   │   ├── tap-endpoints.c
@@ -11871,7 +11829,6 @@
 │   │   │   │   │   │   ├── airpcap_loader.c
 │   │   │   │   │   │   ├── iface_monitor.h
 │   │   │   │   │   │   ├── capture-pcap-util.h
-│   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   ├── capture_session.h
 │   │   │   │   │   │   ├── airpcap.h
 │   │   │   │   │   │   ├── capture-pcap-util-unix.c
@@ -11898,7 +11855,6 @@
 │   │   │   │   │   │   ├── etw_message.c
 │   │   │   │   │   │   ├── etw_ndiscap.c
 │   │   │   │   │   │   ├── etl.h
-│   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   ├── sdjournal.c
 │   │   │   │   │   │   ├── falcodump.cpp
 │   │   │   │   │   │   ├── ssh-base.c
@@ -12445,7 +12401,6 @@
 │   │   │   │   │   │   │   ├── FindGTHREAD2.cmake
 │   │   │   │   │   │   │   ├── FindNSIS.cmake
 │   │   │   │   │   │   │   ├── FindLua.cmake
-│   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   ├── FindSBC.cmake
 │   │   │   │   │   │   │   ├── FindBROTLI.cmake
 │   │   │   │   │   │   │   ├── FindMinizip.cmake
@@ -12691,7 +12646,6 @@
 │   │   │   │   │   │   │   │   ├── wimax_tlv.c
 │   │   │   │   │   │   │   │   ├── msg_aas_beam.c
 │   │   │   │   │   │   │   │   ├── msg_pmc.c
-│   │   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   │   ├── wimax_harq_map_decoder.c
 │   │   │   │   │   │   │   │   ├── msg_clk_cmp.c
 │   │   │   │   │   │   │   │   ├── msg_arq.c
@@ -12732,7 +12686,6 @@
 │   │   │   │   │   │   │   │   ├── CMakeLists.txt
 │   │   │   │   │   │   │   │   ├── AUTHORS
 │   │   │   │   │   │   │   │   ├── packet-mate.c
-│   │   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   │   ├── mate_util.c
 │   │   │   │   │   │   │   │   ├── mate_grammar.lemon
 │   │   │   │   │   │   │   │   ├── mate_setup.c
@@ -13514,7 +13467,6 @@
 │   │   │   │   │   │   ├── crc32.c
 │   │   │   │   │   │   ├── crc16-plain.h
 │   │   │   │   │   │   ├── test_wsutil.c
-│   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   ├── cfutils.h
 │   │   │   │   │   │   ├── base32.h
 │   │   │   │   │   │   ├── interface.h
@@ -13714,7 +13666,6 @@
 │   │   │   │   │   │   ├── README
 │   │   │   │   │   │   ├── hcidump.h
 │   │   │   │   │   │   ├── nettrace_3gpp_32_423.h
-│   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   ├── observer.c
 │   │   │   │   │   │   ├── mp4.c
 │   │   │   │   │   │   ├── dct3trace.h
@@ -13842,7 +13793,6 @@
 │   │   │   │   │   │   ├── README.developer
 │   │   │   │   │   │   ├── README.wmem
 │   │   │   │   │   │   ├── README.display_filter
-│   │   │   │   │   │   ├── .gitignore
 │   │   │   │   │   │   ├── README.design
 │   │   │   │   │   │   ├── wifidump.adoc
 │   │   │   │   │   │   ├── README.wslua
@@ -14000,7 +13950,6 @@
 │   │   │   │   │   │   ├── wscbor.c
 │   │   │   │   │   │   ├── stats_tree.h
 │   │   │   │   │   │   ├── register-int.h
-│   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   ├── except.h
 │   │   │   │   │   │   ├── eapol_keydes_types.h
 │   │   │   │   │   │   ├── oids_test.c
@@ -14150,7 +14099,6 @@
 │   │   │   │   │   │   │   ├── sttype-number.h
 │   │   │   │   │   │   │   ├── dfilter-macro.c
 │   │   │   │   │   │   │   ├── sttype-slice.h
-│   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   ├── dfunctions.c
 │   │   │   │   │   │   │   ├── semcheck.h
 │   │   │   │   │   │   │   ├── dfilter-plugin.c
@@ -15166,7 +15114,6 @@
 │   │   │   │   │   │   │   ├── packet-rsip.c
 │   │   │   │   │   │   │   ├── packet-pkix1explicit.h
 │   │   │   │   │   │   │   ├── packet-gluster_cli.c
-│   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   ├── packet-mbim.h
 │   │   │   │   │   │   │   ├── packet-isis.h
 │   │   │   │   │   │   │   ├── packet-pdcp-nr.h
@@ -16294,7 +16241,6 @@
 │   │   │   │   │   │   │   ├── packet-peekremote.c
 │   │   │   │   │   │   │   ├── asn1/
 │   │   │   │   │   │   │   │   ├── CMakeLists.txt
-│   │   │   │   │   │   │   │   ├── .gitignore
 │   │   │   │   │   │   │   │   ├── CMakeListsCustom.example.txt
 │   │   │   │   │   │   │   │   ├── h501/
 │   │   │   │   │   │   │   │   │   ├── CMakeLists.txt
@@ -17565,7 +17511,6 @@
 │   │   │   │   │   │   │   ├── wslua_nstime.c
 │   │   │   │   │   │   │   ├── wslua_proto_field.c
 │   │   │   │   │   │   │   ├── wslua_listener.c
-│   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   ├── taps.ini
 │   │   │   │   │   │   │   ├── wslua_proto_expert.c
 │   │   │   │   │   │   │   ├── wslua_dumper.c
@@ -17601,7 +17546,6 @@
 │   │   │   │   │   │   │   ├── ftype-ieee-11073-float.c
 │   │   │   │   │   │   │   ├── ftype-time.c
 │   │   │   │   │   │   │   ├── ftype-none.c
-│   │   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   │   ├── ftypes.c
 │   │   │   │   │   │   │   ├── ftype-ipv6.c
 │   │   │   │   │   │   │   ├── ftype-integer.c
@@ -17925,7 +17869,6 @@
 │   │   │   │   │   ├── writecap/
 │   │   │   │   │   │   ├── CMakeLists.txt
 │   │   │   │   │   │   ├── pcapio.h
-│   │   │   │   │   │   ├── .editorconfig
 │   │   │   │   │   │   ├── pcapio.c
 │   │   │   ├── wiretap/
 │   │   │   │   ├── peektagged.c
@@ -18016,7 +17959,6 @@
 │   │   │   │   ├── README
 │   │   │   │   ├── hcidump.h
 │   │   │   │   ├── nettrace_3gpp_32_423.h
-│   │   │   │   ├── .editorconfig
 │   │   │   │   ├── observer.c
 │   │   │   │   ├── mp4.c
 │   │   │   │   ├── dct3trace.h
@@ -18103,7 +18045,6 @@
 │   │   │   ├── writecap/
 │   │   │   │   ├── CMakeLists.txt
 │   │   │   │   ├── pcapio.h
-│   │   │   │   ├── .editorconfig
 │   │   │   │   ├── pcapio.c
 │   │   ├── 0 Resources/
 │   │   │   ├── 2 Midterm Cheatsheets/
