@@ -1,21 +1,24 @@
-[submodule "3B/0 CSC 305 A02 B0"]
-	path = 3B/0 CSC 305 A02 B0
+[submodule "0 Spring 2024/0 CSC 305 A02 B0"]
+	path = 0 Spring 2024/0 CSC 305 A02 B0
 	url = https://github.com/arfazhxss/CSC305.git
-[submodule "3B/3 ECE 363 A01 B03/4 WireShark/wsutil"]
-	path = 3B/3 ECE 363 A01 B03/4 WireShark/wsutil
+[submodule "0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil"]
+	path = 0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil
 	url = https://gitlab.com/wireshark/wireshark/-/tree/master/wsutil.git
-[submodule "3B/4 SENG 371 A02 B03/2 Assignments/frozen-jabref"]
-	path = 3B/4 SENG 371 A02 B03/2 Assignments/frozen-jabref
+[submodule "0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref"]
+	path = 0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref
 	url = https://github.com/arfazhxss/frozen-jabref.git
-[submodule "Spring 2024/0 CSC 305 A02 B0"]
-	path = Spring 2024/0 CSC 305 A02 B0
+[submodule "0 Spring 2024/0 CSC 305 A02 B0"]
+	path = 0 Spring 2024/0 CSC 305 A02 B0
 	url = https://github.com/arfazhxss/CSC305.git
-[submodule "Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil"]
-	path = Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil
+[submodule "0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil"]
+	path = 0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil
 	url = https://gitlab.com/wireshark/wireshark/-/tree/master/wsutil.git
-[submodule "Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref"]
-	path = Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref
+[submodule "0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref"]
+	path = 0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref
 	url = https://github.com/arfazhxss/frozen-jabref
-[submodule "Spring 2024/4 SENG 371 A02 B03/2 Assignments/jabref"]
-	path = Spring 2024/4 SENG 371 A02 B03/2 Assignments/jabref
+[submodule "0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/jabref"]
+	path = 0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/jabref
 	url = https://github.com/jabref/jabref
+[submodule "2 Fall 2024/2 SENG 350 A02 B03/2 Labs"]
+	path = 2 Fall 2024/2 SENG 350 A02 B03/2 Labs
+	url = https://github.com/seng-350-2024-fall/team-13/
