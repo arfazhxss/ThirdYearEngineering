@@ -1,18 +1,12 @@
 [submodule "0 Spring 2024/0 CSC 305 A02 B0"]
 	path = 0 Spring 2024/0 CSC 305 A02 B0
 	url = https://github.com/arfazhxss/CSC305.git
-[submodule "0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil"]
-	path = 0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil
-	url = https://gitlab.com/wireshark/wireshark/-/tree/master/wsutil.git
 [submodule "0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref"]
 	path = 0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref
 	url = https://github.com/arfazhxss/frozen-jabref.git
 [submodule "0 Spring 2024/0 CSC 305 A02 B0"]
 	path = 0 Spring 2024/0 CSC 305 A02 B0
 	url = https://github.com/arfazhxss/CSC305.git
-[submodule "0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil"]
-	path = 0 Spring 2024/3 ECE 363 A01 B03/4 WireShark/wsutil
-	url = https://gitlab.com/wireshark/wireshark/-/tree/master/wsutil.git
 [submodule "0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref"]
 	path = 0 Spring 2024/4 SENG 371 A02 B03/2 Assignments/frozen-jabref
 	url = https://github.com/arfazhxss/frozen-jabref
