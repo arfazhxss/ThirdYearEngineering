@@ -1221,8 +1221,38 @@
 │   │   │   ├── 1.0 I:O.pdf
 │   │   │   ├── 1.1 I:O Examples.pdf
 │   │   │   ├── 2.0 Interface.pdf
+│   │   │   ├── PastAE/
+│   │   │   │   ├── A1 F12 S.pdf
+│   │   │   │   ├── A1 F13 S.pdf
+│   │   │   │   ├── A1 F15 S.pdf
+│   │   │   │   ├── A1 F17 S.pdf
+│   │   │   │   ├── A1 F17 S_2.pdf
+│   │   │   │   ├── A2 F12 S.pdf
+│   │   │   │   ├── A2 F15 S.pdf
+│   │   │   │   ├── A2 F17 S.pdf
+│   │   │   │   ├── A2 F17 S2.pdf
+│   │   │   │   ├── A3 F12 S.pdf
+│   │   │   │   ├── A3 F15 S.pdf
+│   │   │   │   ├── A5 F15 S.pdf
+│   │   │   │   ├── A5 F18 S.pdf
+│   │   │   │   ├── A6 F15 S.pdf
+│   │   │   │   ├── Mid F12 S.pdf
+│   │   │   │   ├── Mid F14 Q+S.pdf
+│   │   │   │   ├── Mid F20 Q.pdf
+│   │   │   │   ├── Mid F21 Q.pdf
+│   │   │   │   ├── XA1 Anon_1.pdf
+│   │   │   │   ├── XA2 Anon_1.pdf
 │   │   ├── 1 Assignments/
-│   │   │   ├── Assignment_1.pdf
+│   │   │   ├── A1.pdf
+│   │   │   ├── SolvedE1.pdf
+│   │   ├── 2 Repository/
+│   │   │   ├── LICENSE
+│   │   │   ├── route.sh
+│   │   │   ├── AE_1/
+│   │   │   │   ├── eae.c
+│   │   │   │   ├── eae.png
+│   │   │   │   ├── eaf.c
+│   │   │   │   ├── eaf.png
 │   ├── 1 ECE 360 A01 B05/
 │   │   ├── 0 Resources/
 │   │   │   ├── A10-Graph-1.png
@@ -1252,6 +1282,7 @@
 │   │   │   ├── README.md
 │   │   │   ├── recep.drawio
 │   │   │   ├── route.sh
+│   │   │   ├── Arfaz/
 │   ├── 3 EPHE 155 A01/
 │   │   ├── 2024 Diet Challenge.pdf
 │   │   ├── 2024 Weight Loss Plan and Nutritional Supplement Critique.pdf
