@@ -16,3 +16,6 @@
 [submodule "2 Fall 2024/2 SENG 350 A02 B03/2 Labs"]
 	path = 2 Fall 2024/2 SENG 350 A02 B03/2 Labs
 	url = https://github.com/seng-350-2024-fall/team-13/
+[submodule "2 Fall 2024/0 ECE 355 A01 B/2 Repository"]
+	path = 2 Fall 2024/0 ECE 355 A01 B/2 Repository
+	url = https://github.com/arfazhxss/embedded-microprocessor-programming
