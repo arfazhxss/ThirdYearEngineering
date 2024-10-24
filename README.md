@@ -2033,11 +2033,14 @@
 │   │   │   ├── Ass1_Q.pdf
 │   │   │   ├── Ass1_S_0.pdf
 │   │   │   ├── Ass1_S_Q3_0.pdf
+│   │   │   ├── Ass1_S_Q3_ex00.pdf
 │   │   │   ├── Ass1_S_Q3_ex01.pdf
 │   │   │   ├── Ass1_S_Q3_ex02.pdf
+│   │   │   ├── Ass1_S_Q4_ex01.pdf
 │   │   │   ├── Ass2_S.pdf
 │   │   │   ├── Ass3_S.pdf
 │   │   │   ├── Ass4_S.pdf
+│   │   │   ├── Ass4_S_Q4_ex01.pdf
 │   │   │   ├── Ass5_S.pdf
 │   │   │   ├── Chap2_Q.pdf
 │   │   │   ├── Chap2_S.pdf
@@ -2052,6 +2055,11 @@
 │   │   │   ├── Chap8_S.pdf
 │   │   │   ├── Chap9_S.pdf
 │   │   │   ├── Quiz1_S.pdf
+│   │   │   ├── TEX/
+│   │   │   │   ├── Ass1_S_Q4_ex01.tex
+│   │   │   │   ├── RHCriterion.pdf
+│   │   │   │   ├── RHCriterion.tex
+│   │   │   │   ├── UnderstandingControlSystems.tex
 │   │   ├── 2 Labs/
 │   │   │   ├── ECE360_LabManual_2023.pdf
 │   │   │   ├── 0 Lab01/
@@ -2077,43 +2085,6 @@
 │   │   │   │   │   ├── components/
 │   │   │   │   │   │   ├── index.tsx
 │   │   │   │   │   ├── data/
-│   │   │   ├── med-ed/
-│   │   │   │   ├── README.md
-│   │   │   │   ├── next-env.d.ts
-│   │   │   │   ├── next.config.js
-│   │   │   │   ├── package-lock.json
-│   │   │   │   ├── package.json
-│   │   │   │   ├── tsconfig.json
-│   │   │   │   ├── public/
-│   │   │   │   │   ├── favicon.ico
-│   │   │   │   │   ├── next.svg
-│   │   │   │   │   ├── thirteen.svg
-│   │   │   │   │   ├── vercel.svg
-│   │   │   │   ├── screenshots/
-│   │   │   │   │   ├── overview_page.png
-│   │   │   │   │   ├── professional_page.png
-│   │   │   │   │   ├── public_profile.png
-│   │   │   │   │   ├── visit_details.png
-│   │   │   │   ├── src/
-│   │   │   │   │   ├── components/
-│   │   │   │   │   │   ├── Head.tsx
-│   │   │   │   │   │   ├── Navbar.tsx
-│   │   │   │   │   │   ├── VisitTable.tsx
-│   │   │   │   │   ├── pages/
-│   │   │   │   │   │   ├── _app.tsx
-│   │   │   │   │   │   ├── _document.tsx
-│   │   │   │   │   │   ├── index.tsx
-│   │   │   │   │   │   ├── professional.tsx
-│   │   │   │   │   │   ├── public.tsx
-│   │   │   │   │   │   ├── api/
-│   │   │   │   │   │   │   ├── writeDB.ts
-│   │   │   │   │   │   ├── detail/
-│   │   │   │   │   │   │   ├── [id].tsx
-│   │   │   │   │   ├── styles/
-│   │   │   │   │   │   ├── myTheme.js
-│   │   │   │   │   ├── utils/
-│   │   │   │   │   │   ├── sampleServerResponse.json
-│   │   │   │   │   │   ├── types.ts
 │   │   ├── 1 Assignments/
 │   │   │   ├── Case Study.docx
 │   │   │   ├── Case Study.pdf
