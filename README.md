@@ -1224,65 +1224,960 @@
 │   │   │   ├── PastAE/
 │   │   │   │   ├── A1 F12 S.pdf
 │   │   │   │   ├── A1 F13 S.pdf
+│   │   │   │   ├── A1 F15 Q.pdf
 │   │   │   │   ├── A1 F15 S.pdf
+│   │   │   │   ├── A1 F17 Q.pdf
 │   │   │   │   ├── A1 F17 S.pdf
 │   │   │   │   ├── A1 F17 S_2.pdf
 │   │   │   │   ├── A2 F12 S.pdf
+│   │   │   │   ├── A2 F13 Q.pdf
+│   │   │   │   ├── A2 F14 Q.pdf
 │   │   │   │   ├── A2 F15 S.pdf
+│   │   │   │   ├── A2 F17 Q.pdf
 │   │   │   │   ├── A2 F17 S.pdf
 │   │   │   │   ├── A2 F17 S2.pdf
+│   │   │   │   ├── A2 F20 Q.pdf
 │   │   │   │   ├── A3 F12 S.pdf
+│   │   │   │   ├── A3 F13 Q.pdf
+│   │   │   │   ├── A3 F15 Q.pdf
 │   │   │   │   ├── A3 F15 S.pdf
+│   │   │   │   ├── A4 F14 Q.pdf
+│   │   │   │   ├── A4 F15 Q.pdf
+│   │   │   │   ├── A4 F15 S.pdf
+│   │   │   │   ├── A4 F17 Q.pdf
+│   │   │   │   ├── A5 F12 Q.pdf
+│   │   │   │   ├── A5 F13 Q.pdf
 │   │   │   │   ├── A5 F15 S.pdf
+│   │   │   │   ├── A5 F18 Q.pdf
 │   │   │   │   ├── A5 F18 S.pdf
+│   │   │   │   ├── A6 F12 Q.pdf
+│   │   │   │   ├── A6 F12 S.pdf
+│   │   │   │   ├── A6 F13 Q.pdf
+│   │   │   │   ├── A6 F13 S.pdf
+│   │   │   │   ├── A6 F15 Q.pdf
 │   │   │   │   ├── A6 F15 S.pdf
 │   │   │   │   ├── Mid F12 S.pdf
 │   │   │   │   ├── Mid F14 Q+S.pdf
 │   │   │   │   ├── Mid F20 Q.pdf
+│   │   │   │   ├── Mid F20 S.pdf
 │   │   │   │   ├── Mid F21 Q.pdf
 │   │   │   │   ├── XA1 Anon_1.pdf
 │   │   │   │   ├── XA2 Anon_1.pdf
+│   │   │   │   ├── XFR Anon_1.pdf
 │   │   ├── 1 Assignments/
-│   │   │   ├── A1.pdf
-│   │   │   ├── SolvedE1.pdf
+│   │   │   ├── A1/
+│   │   │   │   ├── A1.pdf
+│   │   │   │   ├── Hussain, Arfaz - Assignment 1.docx
+│   │   │   │   ├── Hussain, Arfaz - Assignment 1.pdf
+│   │   │   │   ├── SolvedE1.pdf
+│   │   │   ├── A2/
+│   │   │   │   ├── EDF_Task_Scheduling.docx
+│   │   │   │   ├── Hussain, Arfaz - Assignment 2.docx
+│   │   │   │   ├── Hussain, Arfaz - Assignment 2.pdf
+│   │   │   │   ├── Q1-0.c
+│   │   │   │   ├── Q1-1.c
+│   │   │   │   ├── Q2-0.c
+│   │   │   │   ├── Q2-1.c
 │   │   ├── 2 Repository/
 │   │   │   ├── LICENSE
 │   │   │   ├── route.sh
+│   │   │   ├── transf_1.c
+│   │   │   ├── transf_2.c
 │   │   │   ├── AE_1/
 │   │   │   │   ├── eae.c
 │   │   │   │   ├── eae.png
 │   │   │   │   ├── eaf.c
 │   │   │   │   ├── eaf.png
+│   │   │   │   ├── PrA/
+│   │   │   │   │   ├── final-an-01/
+│   │   │   │   │   │   ├── main.c
+│   │   │   │   │   ├── final-an-02/
+│   │   │   │   │   │   ├── main.c
+│   │   │   │   │   ├── final-an-03/
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── docs/
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── graphics/
+│   │   │   │   │   │   │   │   ├── char-table.png
+│   │   │   │   │   │   │   │   ├── hz_symbol.png
+│   │   │   │   │   │   │   │   ├── opto-high.png
+│   │   │   │   │   │   │   │   ├── opto-low.png
+│   │   │   │   │   │   │   │   ├── pot-high.png
+│   │   │   │   │   │   │   │   ├── pot-low.png
+│   │   │   │   │   │   │   │   ├── schematic_lcd.png
+│   │   │   │   │   │   │   │   ├── schematic_opto-to-555.png
+│   │   │   │   │   │   │   │   ├── schematic_pot.png
+│   │   │   │   │   │   │   │   ├── schematic_shift-reg.png
+│   │   │   │   │   │   │   │   ├── schematic_uc-to-project-board.png
+│   │   │   │   │   │   │   │   ├── system_blocks.png
+│   │   │   │   │   │   │   ├── report/
+│   │   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   │   ├── makefile
+│   │   │   │   │   │   │   │   ├── report.bib
+│   │   │   │   │   │   │   │   ├── report.pdf
+│   │   │   │   │   │   │   │   ├── report.tex
+│   │   │   │   │   │   │   │   ├── sections/
+│   │   │   │   │   │   │   │   │   ├── appendix_source_code.tex
+│   │   │   │   │   │   │   │   │   ├── design_solution.tex
+│   │   │   │   │   │   │   │   │   ├── discussion.tex
+│   │   │   │   │   │   │   │   │   ├── problem_description.tex
+│   │   │   │   │   │   │   │   │   ├── tests.tex
+│   │   │   │   │   │   │   │   │   ├── titlepage.tex
+│   │   │   │   │   │   │   ├── schematics/
+│   │   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   │   ├── opto-to-555.asc
+│   │   │   │   │   │   │   │   ├── uc-to-project-board.asc
+│   │   │   │   │   │   ├── include/
+│   │   │   │   │   │   │   ├── lcd.h
+│   │   │   │   │   │   │   ├── stm32f0xx_conf.h
+│   │   │   │   │   │   ├── ldscripts/
+│   │   │   │   │   │   │   ├── libs.ld
+│   │   │   │   │   │   │   ├── mem.ld
+│   │   │   │   │   │   │   ├── sections.ld
+│   │   │   │   │   │   ├── src/
+│   │   │   │   │   │   │   ├── _write.c
+│   │   │   │   │   │   │   ├── lcd.c
+│   │   │   │   │   │   │   ├── main.c
+│   │   │   │   │   │   ├── system/
+│   │   │   │   │   │   │   ├── include/
+│   │   │   │   │   │   │   │   ├── arm/
+│   │   │   │   │   │   │   │   │   ├── semihosting.h
+│   │   │   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   │   │   ├── README_CMSIS.txt
+│   │   │   │   │   │   │   │   │   ├── README_DEVICE.txt
+│   │   │   │   │   │   │   │   │   ├── arm_common_tables.h
+│   │   │   │   │   │   │   │   │   ├── arm_const_structs.h
+│   │   │   │   │   │   │   │   │   ├── arm_math.h
+│   │   │   │   │   │   │   │   │   ├── cmsis_device.h
+│   │   │   │   │   │   │   │   │   ├── core_cm0.h
+│   │   │   │   │   │   │   │   │   ├── core_cm0plus.h
+│   │   │   │   │   │   │   │   │   ├── core_cm3.h
+│   │   │   │   │   │   │   │   │   ├── core_cm4.h
+│   │   │   │   │   │   │   │   │   ├── core_cm4_simd.h
+│   │   │   │   │   │   │   │   │   ├── core_cmFunc.h
+│   │   │   │   │   │   │   │   │   ├── core_cmInstr.h
+│   │   │   │   │   │   │   │   │   ├── core_sc000.h
+│   │   │   │   │   │   │   │   │   ├── core_sc300.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx.h
+│   │   │   │   │   │   │   │   │   ├── system_stm32f0xx.h
+│   │   │   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   │   │   ├── ExceptionHandlers.h
+│   │   │   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   │   │   ├── Trace.h
+│   │   │   │   │   │   │   │   ├── stm32f0-stdperiph/
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_adc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_can.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_cec.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_comp.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crs.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dac.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dbgmcu.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dma.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_exti.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_flash.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_gpio.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_i2c.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_iwdg.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_misc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_pwr.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rcc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rtc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_spi.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_syscfg.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_tim.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_usart.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_wwdg.h
+│   │   │   │   │   │   │   ├── src/
+│   │   │   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   │   │   ├── README_DEVICE.txt
+│   │   │   │   │   │   │   │   │   ├── system_stm32f0xx.c
+│   │   │   │   │   │   │   │   │   ├── vectors_stm32f0xx.c
+│   │   │   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   │   │   ├── _initialize_hardware.c
+│   │   │   │   │   │   │   │   │   ├── _reset_hardware.c
+│   │   │   │   │   │   │   │   │   ├── exception_handlers.c
+│   │   │   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   │   │   ├── Trace.c
+│   │   │   │   │   │   │   │   │   ├── trace_impl.c
+│   │   │   │   │   │   │   │   ├── newlib/
+│   │   │   │   │   │   │   │   │   ├── README.txt
+│   │   │   │   │   │   │   │   │   ├── _cxx.cpp
+│   │   │   │   │   │   │   │   │   ├── _exit.c
+│   │   │   │   │   │   │   │   │   ├── _sbrk.c
+│   │   │   │   │   │   │   │   │   ├── _startup.c
+│   │   │   │   │   │   │   │   │   ├── _syscalls.c
+│   │   │   │   │   │   │   │   │   ├── assert.c
+│   │   │   │   │   │   │   │   ├── stm32f0-stdperiph/
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_adc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_can.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_cec.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_comp.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crs.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dac.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dbgmcu.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dma.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_exti.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_flash.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_gpio.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_i2c.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_iwdg.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_misc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_pwr.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rcc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rtc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_spi.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_syscfg.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_tim.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_usart.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_wwdg.c
+│   │   │   │   │   ├── final-an-04/
+│   │   │   │   │   │   ├── include/
+│   │   │   │   │   │   │   ├── analog.h
+│   │   │   │   │   │   │   ├── lcd.h
+│   │   │   │   │   │   │   ├── stm32f0xx_conf.h
+│   │   │   │   │   │   ├── ldscripts/
+│   │   │   │   │   │   │   ├── libs.ld
+│   │   │   │   │   │   │   ├── mem.ld
+│   │   │   │   │   │   │   ├── sections.ld
+│   │   │   │   │   │   ├── src/
+│   │   │   │   │   │   │   ├── _write.c
+│   │   │   │   │   │   │   ├── analog.c
+│   │   │   │   │   │   │   ├── lcd.c
+│   │   │   │   │   │   │   ├── main.c
+│   │   │   │   │   │   ├── system/
+│   │   │   │   │   │   │   ├── include/
+│   │   │   │   │   │   │   │   ├── arm/
+│   │   │   │   │   │   │   │   │   ├── semihosting.h
+│   │   │   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   │   │   ├── README_CMSIS.txt
+│   │   │   │   │   │   │   │   │   ├── README_DEVICE.txt
+│   │   │   │   │   │   │   │   │   ├── arm_common_tables.h
+│   │   │   │   │   │   │   │   │   ├── arm_const_structs.h
+│   │   │   │   │   │   │   │   │   ├── arm_math.h
+│   │   │   │   │   │   │   │   │   ├── cmsis_device.h
+│   │   │   │   │   │   │   │   │   ├── core_cm0.h
+│   │   │   │   │   │   │   │   │   ├── core_cm0plus.h
+│   │   │   │   │   │   │   │   │   ├── core_cm3.h
+│   │   │   │   │   │   │   │   │   ├── core_cm4.h
+│   │   │   │   │   │   │   │   │   ├── core_cm4_simd.h
+│   │   │   │   │   │   │   │   │   ├── core_cmFunc.h
+│   │   │   │   │   │   │   │   │   ├── core_cmInstr.h
+│   │   │   │   │   │   │   │   │   ├── core_sc000.h
+│   │   │   │   │   │   │   │   │   ├── core_sc300.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx.h
+│   │   │   │   │   │   │   │   │   ├── system_stm32f0xx.h
+│   │   │   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   │   │   ├── ExceptionHandlers.h
+│   │   │   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   │   │   ├── Trace.h
+│   │   │   │   │   │   │   │   ├── stm32f0-stdperiph/
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_adc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_can.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_cec.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_comp.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crs.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dac.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dbgmcu.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dma.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_exti.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_flash.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_gpio.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_i2c.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_iwdg.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_misc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_pwr.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rcc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rtc.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_spi.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_syscfg.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_tim.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_usart.h
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_wwdg.h
+│   │   │   │   │   │   │   ├── src/
+│   │   │   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   │   │   ├── README_DEVICE.txt
+│   │   │   │   │   │   │   │   │   ├── system_stm32f0xx.c
+│   │   │   │   │   │   │   │   │   ├── vectors_stm32f0xx.c
+│   │   │   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   │   │   ├── _initialize_hardware.c
+│   │   │   │   │   │   │   │   │   ├── _reset_hardware.c
+│   │   │   │   │   │   │   │   │   ├── exception_handlers.c
+│   │   │   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   │   │   ├── Trace.c
+│   │   │   │   │   │   │   │   │   ├── trace_impl.c
+│   │   │   │   │   │   │   │   ├── newlib/
+│   │   │   │   │   │   │   │   │   ├── README.txt
+│   │   │   │   │   │   │   │   │   ├── _cxx.cpp
+│   │   │   │   │   │   │   │   │   ├── _exit.c
+│   │   │   │   │   │   │   │   │   ├── _sbrk.c
+│   │   │   │   │   │   │   │   │   ├── _startup.c
+│   │   │   │   │   │   │   │   │   ├── _syscalls.c
+│   │   │   │   │   │   │   │   │   ├── assert.c
+│   │   │   │   │   │   │   │   ├── stm32f0-stdperiph/
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_adc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_can.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_cec.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_comp.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_crs.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dac.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dbgmcu.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_dma.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_exti.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_flash.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_gpio.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_i2c.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_iwdg.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_misc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_pwr.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rcc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_rtc.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_spi.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_syscfg.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_tim.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_usart.c
+│   │   │   │   │   │   │   │   │   ├── stm32f0xx_wwdg.c
+│   │   │   ├── LB_0/
+│   │   │   │   ├── include/
+│   │   │   │   │   ├── stm32_assert.h
+│   │   │   │   │   ├── stm32f0xx_hal_conf.h
+│   │   │   │   ├── ldscripts/
+│   │   │   │   │   ├── libs.ld
+│   │   │   │   │   ├── mem.ld
+│   │   │   │   │   ├── sections.ld
+│   │   │   │   ├── src/
+│   │   │   │   │   ├── initialize-hardware.c
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   ├── stm32f0xx_hal_msp.c
+│   │   │   │   │   ├── write.c
+│   │   │   │   ├── system/
+│   │   │   │   │   ├── include/
+│   │   │   │   │   │   ├── arm/
+│   │   │   │   │   │   │   ├── semihosting.h
+│   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   ├── LICENSE.txt
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── arm_common_tables.h
+│   │   │   │   │   │   │   ├── arm_const_structs.h
+│   │   │   │   │   │   │   ├── arm_math.h
+│   │   │   │   │   │   │   ├── cmsis_armcc.h
+│   │   │   │   │   │   │   ├── cmsis_armcc_V6.h
+│   │   │   │   │   │   │   ├── cmsis_armclang.h
+│   │   │   │   │   │   │   ├── cmsis_compiler.h
+│   │   │   │   │   │   │   ├── cmsis_device.h
+│   │   │   │   │   │   │   ├── cmsis_gcc.h
+│   │   │   │   │   │   │   ├── cmsis_iccarm.h
+│   │   │   │   │   │   │   ├── cmsis_version.h
+│   │   │   │   │   │   │   ├── core_armv8mbl.h
+│   │   │   │   │   │   │   ├── core_armv8mml.h
+│   │   │   │   │   │   │   ├── core_cm0.h
+│   │   │   │   │   │   │   ├── core_cm0plus.h
+│   │   │   │   │   │   │   ├── core_cm1.h
+│   │   │   │   │   │   │   ├── core_cm23.h
+│   │   │   │   │   │   │   ├── core_cm3.h
+│   │   │   │   │   │   │   ├── core_cm33.h
+│   │   │   │   │   │   │   ├── core_cm4.h
+│   │   │   │   │   │   │   ├── core_cm7.h
+│   │   │   │   │   │   │   ├── core_cmFunc.h
+│   │   │   │   │   │   │   ├── core_cmInstr.h
+│   │   │   │   │   │   │   ├── core_cmSimd.h
+│   │   │   │   │   │   │   ├── core_sc000.h
+│   │   │   │   │   │   │   ├── core_sc300.h
+│   │   │   │   │   │   │   ├── mpu_armv7.h
+│   │   │   │   │   │   │   ├── mpu_armv8.h
+│   │   │   │   │   │   │   ├── stm32f051x8.h
+│   │   │   │   │   │   │   ├── stm32f0xx.h
+│   │   │   │   │   │   │   ├── system_stm32f0xx.h
+│   │   │   │   │   │   │   ├── tz_context.h
+│   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   ├── exception-handlers.h
+│   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   ├── trace.h
+│   │   │   │   │   │   ├── stm32f0-hal/
+│   │   │   │   │   │   │   ├── README-DEVICE.md
+│   │   │   │   │   │   │   ├── stm32_assert_template.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_can.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cec.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_comp.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_conf_template.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cortex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_def.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dma.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dma_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_exti.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_gpio.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_gpio_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2s.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_irda.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_irda_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_iwdg.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smbus.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tsc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_wwdg.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_adc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_bus.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_comp.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_cortex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crs.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dac.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dma.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_exti.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_gpio.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_i2c.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_iwdg.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_pwr.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rcc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rtc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_spi.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_system.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_tim.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usart.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usb.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_utils.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_wwdg.h
+│   │   │   │   │   │   │   ├── Legacy/
+│   │   │   │   │   │   │   │   ├── stm32_hal_legacy.h
+│   │   │   │   │   │   │   │   ├── stm32f0xx_hal_can_legacy.h
+│   │   │   │   │   ├── src/
+│   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   ├── system_stm32f0xx.c
+│   │   │   │   │   │   │   ├── vectors_stm32f051x8.c
+│   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   ├── exception-handlers.c
+│   │   │   │   │   │   │   ├── initialize-hardware.c
+│   │   │   │   │   │   │   ├── reset-hardware.c
+│   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   ├── trace-impl.c
+│   │   │   │   │   │   │   ├── trace.c
+│   │   │   │   │   │   ├── newlib/
+│   │   │   │   │   │   │   ├── README.txt
+│   │   │   │   │   │   │   ├── assert.c
+│   │   │   │   │   │   │   ├── cxx.cpp
+│   │   │   │   │   │   │   ├── exit.c
+│   │   │   │   │   │   │   ├── sbrk.c
+│   │   │   │   │   │   │   ├── startup.c
+│   │   │   │   │   │   │   ├── syscalls.c
+│   │   │   │   │   │   ├── stm32f0-hal/
+│   │   │   │   │   │   │   ├── README-DEVICE.md
+│   │   │   │   │   │   │   ├── stm32f0xx_hal.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_can.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cec.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_comp.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cortex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dma.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_exti.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_gpio.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2s.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_irda.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_iwdg.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_msp_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smbus.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_timebase_rtc_alarm_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_timebase_rtc_wakeup_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_timebase_tim_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tsc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_wwdg.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_adc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_comp.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crs.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dac.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dma.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_exti.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_gpio.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_i2c.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_pwr.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rcc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rtc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_spi.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_tim.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usart.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usb.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_utils.c
+│   │   │   ├── LB_1/
+│   │   │   │   ├── include/
+│   │   │   │   │   ├── stm32_assert.h
+│   │   │   │   │   ├── stm32f0xx_hal_conf.h
+│   │   │   │   ├── ldscripts/
+│   │   │   │   │   ├── libs.ld
+│   │   │   │   │   ├── mem.ld
+│   │   │   │   │   ├── sections.ld
+│   │   │   │   ├── src/
+│   │   │   │   │   ├── initialize-hardware.c
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   ├── stm32f0xx_hal_msp.c
+│   │   │   │   │   ├── write.c
+│   │   │   │   ├── system/
+│   │   │   │   │   ├── include/
+│   │   │   │   │   │   ├── arm/
+│   │   │   │   │   │   │   ├── semihosting.h
+│   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   ├── LICENSE.txt
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── arm_common_tables.h
+│   │   │   │   │   │   │   ├── arm_const_structs.h
+│   │   │   │   │   │   │   ├── arm_math.h
+│   │   │   │   │   │   │   ├── cmsis_armcc.h
+│   │   │   │   │   │   │   ├── cmsis_armcc_V6.h
+│   │   │   │   │   │   │   ├── cmsis_armclang.h
+│   │   │   │   │   │   │   ├── cmsis_compiler.h
+│   │   │   │   │   │   │   ├── cmsis_device.h
+│   │   │   │   │   │   │   ├── cmsis_gcc.h
+│   │   │   │   │   │   │   ├── cmsis_iccarm.h
+│   │   │   │   │   │   │   ├── cmsis_version.h
+│   │   │   │   │   │   │   ├── core_armv8mbl.h
+│   │   │   │   │   │   │   ├── core_armv8mml.h
+│   │   │   │   │   │   │   ├── core_cm0.h
+│   │   │   │   │   │   │   ├── core_cm0plus.h
+│   │   │   │   │   │   │   ├── core_cm1.h
+│   │   │   │   │   │   │   ├── core_cm23.h
+│   │   │   │   │   │   │   ├── core_cm3.h
+│   │   │   │   │   │   │   ├── core_cm33.h
+│   │   │   │   │   │   │   ├── core_cm4.h
+│   │   │   │   │   │   │   ├── core_cm7.h
+│   │   │   │   │   │   │   ├── core_cmFunc.h
+│   │   │   │   │   │   │   ├── core_cmInstr.h
+│   │   │   │   │   │   │   ├── core_cmSimd.h
+│   │   │   │   │   │   │   ├── core_sc000.h
+│   │   │   │   │   │   │   ├── core_sc300.h
+│   │   │   │   │   │   │   ├── mpu_armv7.h
+│   │   │   │   │   │   │   ├── mpu_armv8.h
+│   │   │   │   │   │   │   ├── stm32f051x8.h
+│   │   │   │   │   │   │   ├── stm32f0xx.h
+│   │   │   │   │   │   │   ├── system_stm32f0xx.h
+│   │   │   │   │   │   │   ├── tz_context.h
+│   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   ├── exception-handlers.h
+│   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   ├── trace.h
+│   │   │   │   │   │   ├── stm32f0-hal/
+│   │   │   │   │   │   │   ├── README-DEVICE.md
+│   │   │   │   │   │   │   ├── stm32_assert_template.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_can.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cec.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_comp.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_conf_template.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cortex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_def.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dma.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dma_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_exti.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_gpio.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_gpio_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2s.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_irda.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_irda_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_iwdg.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smbus.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tsc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart_ex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_wwdg.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_adc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_bus.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_comp.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_cortex.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crs.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dac.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dma.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_exti.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_gpio.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_i2c.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_iwdg.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_pwr.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rcc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rtc.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_spi.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_system.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_tim.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usart.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usb.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_utils.h
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_wwdg.h
+│   │   │   │   │   │   │   ├── Legacy/
+│   │   │   │   │   │   │   │   ├── stm32_hal_legacy.h
+│   │   │   │   │   │   │   │   ├── stm32f0xx_hal_can_legacy.h
+│   │   │   │   │   ├── src/
+│   │   │   │   │   │   ├── cmsis/
+│   │   │   │   │   │   │   ├── system_stm32f0xx.c
+│   │   │   │   │   │   │   ├── vectors_stm32f051x8.c
+│   │   │   │   │   │   ├── cortexm/
+│   │   │   │   │   │   │   ├── exception-handlers.c
+│   │   │   │   │   │   │   ├── initialize-hardware.c
+│   │   │   │   │   │   │   ├── reset-hardware.c
+│   │   │   │   │   │   ├── diag/
+│   │   │   │   │   │   │   ├── trace-impl.c
+│   │   │   │   │   │   │   ├── trace.c
+│   │   │   │   │   │   ├── newlib/
+│   │   │   │   │   │   │   ├── README.txt
+│   │   │   │   │   │   │   ├── assert.c
+│   │   │   │   │   │   │   ├── cxx.cpp
+│   │   │   │   │   │   │   ├── exit.c
+│   │   │   │   │   │   │   ├── sbrk.c
+│   │   │   │   │   │   │   ├── startup.c
+│   │   │   │   │   │   │   ├── syscalls.c
+│   │   │   │   │   │   ├── stm32f0-hal/
+│   │   │   │   │   │   │   ├── README-DEVICE.md
+│   │   │   │   │   │   │   ├── stm32f0xx_hal.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_adc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_can.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cec.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_comp.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_cortex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_crc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dac_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_dma.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_exti.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_flash_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_gpio.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2c_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_i2s.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_irda.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_iwdg.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_msp_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pcd_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_pwr_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rcc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_rtc_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smartcard_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_smbus.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_spi_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tim_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_timebase_rtc_alarm_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_timebase_rtc_wakeup_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_timebase_tim_template.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_tsc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_uart_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_usart_ex.c
+│   │   │   │   │   │   │   ├── stm32f0xx_hal_wwdg.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_adc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_comp.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_crs.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dac.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_dma.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_exti.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_gpio.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_i2c.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_pwr.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rcc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_rtc.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_spi.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_tim.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usart.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_usb.c
+│   │   │   │   │   │   │   ├── stm32f0xx_ll_utils.c
 │   ├── 1 ECE 360 A01 B05/
+│   │   ├── NOTES.docx
 │   │   ├── 0 Resources/
-│   │   │   ├── A10-Graph-1.png
-│   │   │   ├── A10-Graph.pdf
-│   │   │   ├── A10-Graph.zip
-│   │   │   ├── ECE360_F2023.pdf
+│   │   │   ├── Formuli1.jpg
+│   │   │   ├── Formuli2.jpg
+│   │   │   ├── LaplaceTables1.pdf
+│   │   │   ├── LaplaceTables2.png
+│   │   │   ├── LaplaceTablesCompiled.pdf
+│   │   │   ├── LaplaceTablesCompiled.tex
+│   │   │   ├── LectureSlides.pdf
+│   │   │   ├── Midterm Cheat.pdf
+│   │   │   ├── Modern Control Engineering Solutions Manual.pdf
+│   │   │   ├── Modern Control Engineering.pdf
+│   │   │   ├── ODE.png
+│   │   │   ├── final_formulas.docx
 │   │   │   ├── 0 Past Resources/
-│   │   │   │   ├── IMG_6382.jpg
-│   │   │   │   ├── IMG_6383.jpg
-│   │   │   │   ├── Midterm_Exam_Solution.pdf
-│   │   ├── 1 Assignments/
-│   │   │   ├── Ass1_sol_2021.pdf
-│   │   │   ├── ECE360_Ass1.pdf
+│   │   │   │   ├── ECE360_Lecture_Sept16_Ex.pdf.pdf
+│   │   │   │   ├── 0 Past Exam Papers/
+│   │   │   │   │   ├── ECE360 Final F'01.pdf
+│   │   │   │   │   ├── ECE360 Final F'02.pdf
+│   │   │   │   │   ├── ECE360 Final F'03 (reduced).pdf
+│   │   │   │   │   ├── ECE360 Final F'03.pdf
+│   │   │   │   │   ├── ECE360 Final F'04.pdf
+│   │   │   │   │   ├── ECE360 Final F'07.pdf
+│   │   │   │   │   ├── ECE360 Final F'11.pdf
+│   │   │   │   │   ├── ECE360 Final F'12.pdf
+│   │   │   │   │   ├── ECE360 Final F'13 1.pdf
+│   │   │   │   │   ├── ECE360 Final F'13 2.pdf
+│   │   │   │   │   ├── ECE360 Final F'13 3.pdf
+│   │   │   │   │   ├── ECE360 Final F'14 1.pdf
+│   │   │   │   │   ├── ECE360 Final F'14 2.pdf
+│   │   │   │   │   ├── ECE360 Final F'15 1.pdf
+│   │   │   │   │   ├── ECE360 Final F'15 2.pdf
+│   │   │   │   │   ├── ECE360 Final F'15 3.pdf
+│   │   │   │   │   ├── ECE360 Final F'15 4.pdf
+│   │   │   │   │   ├── ECE360 Final F'16 1.pdf
+│   │   │   │   │   ├── ECE360 Final F'16 2.pdf
+│   │   │   │   │   ├── ECE360 Final F'17.pdf
+│   │   │   │   │   ├── ECE360 Final F'95.pdf
+│   │   │   │   │   ├── ECE360 Final F'96.pdf
+│   │   │   │   │   ├── ECE360 Final F'97.pdf
+│   │   │   │   │   ├── ECE360 Final F'98.pdf
+│   │   │   │   │   ├── ECE360 Final F'99.pdf
+│   │   │   │   │   ├── ECE360 Midterm 1998 F _1.pdf
+│   │   │   │   │   ├── ECE360 Midterm 1998 F _2.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2003 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2004 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2006 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2010 Sp.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2011 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2013 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2014 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2015 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2016 Sp.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2017 F.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2018 Sp.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2019 Sp.pdf
+│   │   │   │   │   ├── ECE360 Midterm 2024 F.pdf
+│   │   │   │   ├── Assignments/
+│   │   ├── 1 Q-As/
+│   │   │   ├── Ass1_Q.pdf
+│   │   │   ├── Ass1_S_0.pdf
+│   │   │   ├── Ass1_S_Q3_0.pdf
+│   │   │   ├── Ass1_S_Q3_ex01.pdf
+│   │   │   ├── Ass1_S_Q3_ex02.pdf
+│   │   │   ├── Ass2_S.pdf
+│   │   │   ├── Ass3_S.pdf
+│   │   │   ├── Ass4_S.pdf
+│   │   │   ├── Ass5_S.pdf
+│   │   │   ├── Chap2_Q.pdf
+│   │   │   ├── Chap2_S.pdf
+│   │   │   ├── Chap3_Q.pdf
+│   │   │   ├── Chap3_S.pdf
+│   │   │   ├── Chap4_S.pdf
+│   │   │   ├── Chap5_Q.pdf
+│   │   │   ├── Chap5_S.pdf
+│   │   │   ├── Chap6_Q.pdf
+│   │   │   ├── Chap6_S.pdf
+│   │   │   ├── Chap7_S.pdf
+│   │   │   ├── Chap8_S.pdf
+│   │   │   ├── Chap9_S.pdf
+│   │   │   ├── Quiz1_S.pdf
 │   │   ├── 2 Labs/
 │   │   │   ├── ECE360_LabManual_2023.pdf
+│   │   │   ├── 0 Lab01/
+│   │   │   │   ├── ECE 360 Lab 1.pdf
+│   │   │   │   ├── ECE_360_Prelab_1.pdf
+│   │   │   │   ├── bump_test.PNG
+│   │   │   │   ├── bump_test_model.PNG
+│   │   │   │   ├── lab_model.PNG
+│   │   │   │   ├── prelab_model.PNG
+│   │   │   │   ├── simulated_response_match_model.PNG
+│   │   │   ├── 1 Lab02/
+│   │   │   │   ├── 4.0.pdf
+│   │   │   │   ├── 4.1.pdf
+│   │   │   │   ├── 4.2.pdf
+│   │   │   │   ├── 4.3.pdf
+│   │   │   │   ├── 4.4.pdf
+│   │   │   ├── 9 Prev/
+│   │   │   │   ├── Lab2_Anon1.pdf.pdf
 │   ├── 2 SENG 350 A02 B03/
 │   │   ├── 0 Resources/
+│   │   │   ├── icu360/
+│   │   │   │   ├── src/
+│   │   │   │   │   ├── components/
+│   │   │   │   │   │   ├── index.tsx
+│   │   │   │   │   ├── data/
+│   │   │   ├── med-ed/
+│   │   │   │   ├── README.md
+│   │   │   │   ├── next-env.d.ts
+│   │   │   │   ├── next.config.js
+│   │   │   │   ├── package-lock.json
+│   │   │   │   ├── package.json
+│   │   │   │   ├── tsconfig.json
+│   │   │   │   ├── public/
+│   │   │   │   │   ├── favicon.ico
+│   │   │   │   │   ├── next.svg
+│   │   │   │   │   ├── thirteen.svg
+│   │   │   │   │   ├── vercel.svg
+│   │   │   │   ├── screenshots/
+│   │   │   │   │   ├── overview_page.png
+│   │   │   │   │   ├── professional_page.png
+│   │   │   │   │   ├── public_profile.png
+│   │   │   │   │   ├── visit_details.png
+│   │   │   │   ├── src/
+│   │   │   │   │   ├── components/
+│   │   │   │   │   │   ├── Head.tsx
+│   │   │   │   │   │   ├── Navbar.tsx
+│   │   │   │   │   │   ├── VisitTable.tsx
+│   │   │   │   │   ├── pages/
+│   │   │   │   │   │   ├── _app.tsx
+│   │   │   │   │   │   ├── _document.tsx
+│   │   │   │   │   │   ├── index.tsx
+│   │   │   │   │   │   ├── professional.tsx
+│   │   │   │   │   │   ├── public.tsx
+│   │   │   │   │   │   ├── api/
+│   │   │   │   │   │   │   ├── writeDB.ts
+│   │   │   │   │   │   ├── detail/
+│   │   │   │   │   │   │   ├── [id].tsx
+│   │   │   │   │   ├── styles/
+│   │   │   │   │   │   ├── myTheme.js
+│   │   │   │   │   ├── utils/
+│   │   │   │   │   │   ├── sampleServerResponse.json
+│   │   │   │   │   │   ├── types.ts
 │   │   ├── 1 Assignments/
+│   │   │   ├── Case Study.docx
+│   │   │   ├── Case Study.pdf
+│   │   │   ├── Hussain, Arfaz - UML Final Activity.pdf
+│   │   │   ├── Hussain, Arfaz - Use Cases.pdf
+│   │   │   ├── Team Peer Evaluation - Hussain, Arfaz - Milestone 1.pdf
+│   │   │   ├── Team Peer Evaluation - Hussain, Arfaz - Milestone 2.pdf
+│   │   │   ├── Team Peer Evaluation - Hussain, Arfaz.docx
+│   │   │   ├── Use Cases.docx
 │   │   ├── 2 Labs/
-│   │   │   ├── Doctor Diagram
-│   │   │   ├── Doctor Diagram.svg
-│   │   │   ├── Doctor Diagram.xml
-│   │   │   ├── NurseDiagram.drawio
-│   │   │   ├── Patient Diagram
-│   │   │   ├── Patient Diagram.svg
-│   │   │   ├── Pharmacist.drawio
 │   │   │   ├── README.md
-│   │   │   ├── recep.drawio
 │   │   │   ├── route.sh
-│   │   │   ├── Arfaz/
+│   │   │   ├── Documentation/
+│   │   │   │   ├── Milestone 1/
+│   │   │   │   │   ├── Use Case Diagrams/
+│   │   │   │   │   │   ├── Doctor Diagram.drawio
+│   │   │   │   │   │   ├── Level-0.drawio
+│   │   │   │   │   │   ├── Level-1.drawio
+│   │   │   │   │   │   ├── NurseUseCaseDiagram.png
+│   │   │   │   │   │   ├── Patient Diagram DR.png
+│   │   │   │   │   │   ├── Patient Diagram WH.png
+│   │   │   │   │   │   ├── Patient Diagram.puml
+│   │   │   │   │   │   ├── Patient Diagram.svg
+│   │   │   │   │   │   ├── Pharmacist.drawio
+│   │   │   │   │   │   ├── Untitled Diagram.drawio
+│   │   │   │   │   │   ├── recep.drawio
+│   │   │   │   │   │   ├── receptionist.png
+│   │   │   │   │   ├── Use Case Files/
+│   │   │   │   │   ├── Use Case Tables/
+│   │   │   │   │   │   ├── DoctorUseCaseTables.md
+│   │   │   │   │   │   ├── NurseUseCaseTables.md
+│   │   │   │   │   │   ├── PatientUseCaseTables.md
+│   │   │   │   │   │   ├── recepUseCaseTables2:3.png
+│   │   │   │   │   │   ├── recepUseCaseTables3:3.png
+│   │   │   │   │   │   ├── recpUseCaseTables1:3.png
+│   │   │   │   ├── Milestone 2/
+│   │   │   │   │   ├── Class Diagram/
+│   │   │   │   │   │   ├── ClassDiagram.puml
+│   │   │   │   │   ├── Collaboration Diagrams/
+│   │   │   │   │   │   ├── AccountRegistration.png
+│   │   │   │   │   │   ├── EditHealthProfile.png
+│   │   │   │   │   │   ├── LogginIn.png
+│   │   │   │   │   │   ├── Textual Descriptions.txt
+│   │   │   │   │   │   ├── ViewTriageResults.png
+│   │   │   │   │   │   ├── ViewWaitlist.png
+│   │   │   │   │   │   ├── VirtualTriageRegister.png
+│   │   │   │   │   ├── Component Diagram/
+│   │   │   │   │   │   ├── ComponentDiagram.png
+│   │   │   │   │   │   ├── Textual Description.txt
+│   │   │   │   │   ├── ERD/
+│   │   │   │   │   │   ├── ERD.puml
+│   │   │   │   │   ├── Sequence Diagram/
+│   │   │   │   │   │   ├── DoctorPrescription.puml
+│   │   │   │   │   ├── State Diagrams/
+│   │   │   │   │   │   ├── Doctor.png
+│   │   │   │   │   │   ├── Doctor.puml
+│   │   │   │   │   │   ├── Nurse.png
+│   │   │   │   │   │   ├── Nurse.puml
+│   │   │   │   │   │   ├── Patient.png
+│   │   │   │   │   │   ├── Patient.puml
+│   │   │   │   │   │   ├── Pharmacist.png
+│   │   │   │   │   │   ├── Pharmacist.puml
+│   │   │   │   │   │   ├── Receptionist.png
+│   │   │   │   │   │   ├── Receptionist.puml
 │   ├── 3 EPHE 155 A01/
 │   │   ├── 2024 Diet Challenge.pdf
 │   │   ├── 2024 Weight Loss Plan and Nutritional Supplement Critique.pdf
@@ -1290,5 +2185,18 @@
 │   │   ├── 0 Resources/
 │   │   │   ├── Lecture 1  Introduction to Nutrition 155.pdf
 │   │   │   ├── Lecture 2  Tools for Healthy Diets .pdf
+│   │   │   ├── 0 Past/
+│   │   │   │   ├── 24_Hour_Food_Recall__x2___Assignment_1_.docx.pdf
+│   │   │   │   ├── EPHE_155__11566__Assignment_1.docx.pdf
+│   │   │   │   ├── EPHE_155___Dietary_Analysis.pdf
+│   │   │   │   ├── Food_Guide_Analysis__Assignment_2__.docx.pdf
+│   │   │   │   ├── Nutrition_Assignment__2___Dietary_Analysis.docx.pdf
 │   │   ├── 1 Assignments/
+│   │   │   ├── 2024 Diet Challenge.pdf
+│   │   │   ├── Arfaz Hussain - Diet Analysis.docx
+│   │   │   ├── Arfaz Hussain - Diet Analysis.pdf
+│   │   │   ├── Assignment 1.docx
+│   │   │   ├── myDiet.rtf
+│   │   │   ├── ~$lanced_Diet_Table.docx
+│   │   │   ├── ~$od_diary.docx
 ```
