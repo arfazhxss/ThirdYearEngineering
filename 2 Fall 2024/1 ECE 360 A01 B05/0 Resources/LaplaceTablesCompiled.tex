@@ -1,0 +1,103 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage[margin=1cm]{geometry}
+\usepackage{booktabs}
+\usepackage{setspace}
+
+% Condense table font size and spacing for better fitting
+\renewcommand{\arraystretch}{1.2}
+\setstretch{1.0} % Tighter spacing for fitting content on one page
+
+\begin{document}
+
+\begin{center}
+    \LARGE \textbf{Laplace Transform Table and Properties}
+$$ F(s) = \int_0^\infty f(t) e^{-st} \, dt $$
+\end{center}
+
+% Updated table for Properties and Rules with better formatting
+\scriptsize
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{5.5cm}|p{9.5cm}|}  % Corrected the number of columns to match the number of & in the rows
+    \hline
+    \textbf{Property/Rule} & \textbf{Mathematical Expression} \\
+    \hline
+    \textbf{Linearity} & $\mathcal{L}\{a f(t) + b g(t)\} = a F(s) + b G(s)$ \\
+    \hline
+    \textbf{Shifting in Time (t-translation)} & $\mathcal{L}\{u(t-a) f(t-a)\} = e^{-as} F(s)$ \\
+    \hline
+    \textbf{s-shift (Frequency Shift)} & $\mathcal{L}\{e^{at} f(t)\} = F(s-a)$ \\
+    \hline
+    \textbf{Differentiation (First Derivative)} & $\mathcal{L}\{f'(t)\} = s F(s) - f(0^-)$ \\
+    \hline
+    \textbf{Differentiation (Second Derivative)} & $\mathcal{L}\{f''(t)\} = s^2 F(s) - s f(0^-) - f'(0^-)$ \\
+    \hline
+    \textbf{Differentiation (nth Derivative)} & $\mathcal{L}\{f^{(n)}(t)\} = s^n F(s) - s^{n-1} f(0^-) - \dots - f^{(n-1)}(0^-)$ \\
+    \hline
+    \textbf{t-Multiplication} & $\mathcal{L}\{t f(t)\} = -F'(s)$ \\
+    \hline
+    \textbf{t-Multiplication (nth power)} & $\mathcal{L}\{t^n f(t)\} = (-1)^n F^{(n)}(s)$ \\
+    \hline
+    \textbf{Integration of f(t)} & $\mathcal{L}\left\{\int_0^t f(\tau) \, d\tau\right\} = \frac{F(s)}{s}$ \\
+    \hline
+    \textbf{Convolution} & $\mathcal{L}\{(f * g)(t)\} = F(s) G(s)$, where $(f * g)(t) = \int_0^t f(\tau) g(t-\tau) \, d\tau$ \\
+    \hline
+    \textbf{Integration with $\frac{f(t)}{t}$} & $\mathcal{L}\left\{\frac{f(t)}{t}\right\} = \int_s^\infty F(\sigma) \, d\sigma$ \\
+    \hline
+    \end{tabular}
+\end{table}
+
+% Set table font to smaller size for fitting the page
+\scriptsize
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{5cm}|p{5cm}|p{2.5cm}|}
+    \hline
+    \textbf{Function $f(t)$} & \textbf{Transform $F(s)$} & \textbf{ROC} \\
+    \hline
+    1 & $\frac{1}{s}$ & $\Re(s) > 0$ \\
+    \hline
+    $e^{at}$ & $\frac{1}{s-a}$ & $\Re(s) > \Re(a)$ \\
+    \hline
+    $t$ & $\frac{1}{s^2}$ & $\Re(s) > 0$ \\
+    \hline
+    $t^n$ & $\frac{n!}{s^{n+1}}$ & $\Re(s) > 0$ \\
+    \hline
+    $\cos(\omega t)$ & $\frac{s}{s^2 + \omega^2}$ & $\Re(s) > 0$ \\
+    \hline
+    $\sin(\omega t)$ & $\frac{\omega}{s^2 + \omega^2}$ & $\Re(s) > 0$ \\
+    \hline
+    $e^{at} \cos(\omega t)$ & $\frac{s-a}{(s-a)^2 + \omega^2}$ & $\Re(s) > \Re(a)$ \\
+    \hline
+    $e^{at} \sin(\omega t)$ & $\frac{\omega}{(s-a)^2 + \omega^2}$ & $\Re(s) > \Re(a)$ \\
+    \hline
+    $\delta(t)$ & 1 & All $s$ \\
+    \hline
+    $\delta(t-a)$ & $e^{-as}$ & All $s$ \\
+    \hline
+    $\cosh(kt)$ & $\frac{s}{s^2 - k^2}$ & $\Re(s) > |k|$ \\
+    \hline
+    $\sinh(kt)$ & $\frac{k}{s^2 - k^2}$ & $\Re(s) > |k|$ \\
+    \hline
+    $\frac{1}{2\omega^3} \left(\sin(\omega t) - \omega t \cos(\omega t)\right)$ & $\frac{1}{(s^2 + \omega^2)^2}$ & $\Re(s) > 0$ \\
+    \hline
+    $\frac{t}{2\omega} \sin(\omega t)$ & $\frac{s}{(s^2 + \omega^2)^2}$ & $\Re(s) > 0$ \\
+    \hline
+    $\frac{1}{2\omega} \left(\sin(\omega t) + \omega t \cos(\omega t)\right)$ & $\frac{s^2}{(s^2 + \omega^2)^2}$ & $\Re(s) > 0$ \\
+    \hline
+    $u(t-a)$ & $\frac{e^{-as}}{s}$ & $\Re(s) > 0$ \\
+    \hline
+    $t^n e^{at}$ & $\frac{n!}{(s-a)^{n+1}}$ & $\Re(s) > \Re(a)$ \\
+    \hline
+    $\frac{1}{\sqrt{\pi t}}$ & $\frac{1}{\sqrt{s}}$ & $\Re(s) > 0$ \\
+    \hline
+    $t^a$ & $\frac{\Gamma(a+1)}{s^{a+1}}$ & $\Re(s) > 0$ \\
+    \hline
+    $\cos(\omega t) - \omega t \sin(\omega t)$ & $\frac{s^2 - \omega^2}{(s^2 + \omega^2)^2}$ & $\Re(s) > 0$ \\
+    \hline
+    \end{tabular}
+\end{table}
+
+\end{document}
