@@ -1,0 +1,272 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{shapes.geometric,arrows,positioning}
+\usepackage{titling}
+\usepackage{url}
+\renewcommand{\UrlFont}{\normalfont}
+\usepackage{setspace}
+\usepackage{titling}
+\usepackage{hanging}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Define custom colors
+\definecolor{bgcolor}{rgb}{0.95,0.95,0.92}
+\definecolor{darkblue}{rgb}{0,0,0.6}
+\definecolor{darkviolet}{rgb}{0.5,0,0.5}
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\definecolor{linenumbergray}{rgb}{0.3,0.3,0.3}
+
+% Custom settings for lstlisting
+\lstset{
+  language=Python,
+  backgroundcolor=\color{bgcolor},
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\color{linenumbergray}\ttfamily\small\bfseries,
+  stepnumber=1,
+  numbersep=10pt,
+  frame=single,
+  rulecolor=\color{black},
+  tabsize=4,
+  captionpos=b,
+  breaklines=true,
+  breakatwhitespace=false,
+  keywordstyle=\bfseries\color{darkblue},
+  keywordstyle=[2]\bfseries\color{darkviolet},
+  commentstyle=\color{mygray}\itshape,
+  stringstyle=\color{mymauve},
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  escapeinside={\%*}{*)},
+  morekeywords={*,...}
+}
+
+\setlength{\droptitle}{-7em}
+\title{GreenFleet System Implementation\\Software Architecture and Design}
+\author{\fontsize{10.5}{0}\selectfont{\underline{Name and Student Identification}: Arfaz Hossain, V00984826}}
+\date{}
+
+\begin{document}
+
+\maketitle\vspace{-2em}
+\setstretch{1.2}
+\vspace{-3em}
+
+\section{Introduction}
+This document presents the implementation of the GreenFleet ride-sharing platform's critical components using the Builder Pattern for notifications and the Singleton Pattern for real-time updates. The implementation is done in Python, focusing on scalability, adaptability, and reliability requirements. \\\\A video with explanation can be found here: \textcolor{purple}{\url{https://youtu.be/UOyq_dCpXGQ}}
+\section{Design Patterns Overview}
+
+\subsection{Class Diagrams}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=2cm]
+    % Notification Class
+    \node[draw,rectangle,minimum width=3cm,minimum height=3cm] (notification) {
+        \begin{tabular}{c}
+        \textbf{Notification} \\
+        \hline
+        - title: str \\
+        - message: str \\
+        - channel: str \\
+        - priority: str \\
+        - timestamp: str \\
+        \hline
+        + \_\_str\_\_()
+        \end{tabular}
+    };
+    
+    % NotificationBuilder Class
+    \node[draw,rectangle,minimum width=3cm,minimum height=4cm, right=3cm of notification] (builder) {
+        \begin{tabular}{c}
+        \textbf{NotificationBuilder} \\
+        \hline
+        - notification: Notification \\
+        \hline
+        + set\_title() \\
+        + set\_message() \\
+        + set\_channel() \\
+        + set\_priority() \\
+        + build()
+        \end{tabular}
+    };
+    
+    % RealTimeSystem Class
+    \node[draw,rectangle,minimum width=3cm,minimum height=3cm, below=3cm of notification] (realtime) {
+        \begin{tabular}{c}
+        \textbf{RealTimeSystem} \\
+        \hline
+        - \_instance \\
+        - active\_rides: dict \\
+        \hline
+        + update\_ride\_status() \\
+        + get\_ride\_status()
+        \end{tabular}
+    };
+    
+    % Draw relationships
+    \draw[->] (builder) -- (notification) node[midway,above] {creates};
+    \draw[->] (realtime) to [out=-5,in=15,looseness=8] (realtime) 
+        node[midway,right] {singleton};
+\end{tikzpicture}
+\caption{System Architecture Class Diagram}
+\end{figure}
+\newpage
+\section{Implementation Details}
+
+\subsection{Notification System - Builder Pattern}
+\begin{lstlisting}[caption=Notification and Builder Implementation]
+class Notification:
+    def __init__(self):
+        self.title = ""
+        self.message = ""
+        self.channel = ""
+        self.priority = ""
+        self.timestamp = ""
+
+    def __str__(self):
+        return f"""
+[Notification Details]
+Title: {self.title}
+Message: {self.message}
+Channel: {self.channel}
+Priority: {self.priority}
+Timestamp: {self.timestamp}
+"""
+
+class NotificationBuilder:
+    def __init__(self):
+        self.notification = Notification()
+    
+    def set_title(self, title: str):
+        print(f"[Builder] Setting notification title: {title}")
+        self.notification.title = title
+        return self
+    
+    def set_message(self, message: str):
+        print(f"[Builder] Setting notification message: {message}")
+        self.notification.message = message
+        return self
+    
+    def set_channel(self, channel: str):
+        print(f"[Builder] Setting notification channel: {channel}")
+        self.notification.channel = channel
+        return self
+    
+    def set_priority(self, priority: str):
+        print(f"[Builder] Setting notification priority: {priority}")
+        self.notification.priority = priority
+        return self
+    
+    def build(self):
+        self.notification.timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("[Builder] Building notification...")
+        return self.notification
+\end{lstlisting}
+
+\subsection{Real-Time System - Singleton Pattern}
+\begin{lstlisting}[caption=RealTimeSystem Singleton Implementation]
+class RealTimeSystem:
+    _instance = None
+    
+    def __new__(cls):
+        if cls._instance is None:
+            print("[System] Creating new RealTimeSystem instance")
+            cls._instance = super(RealTimeSystem, cls).__new__(cls)
+            cls._instance.active_rides = {}
+        return cls._instance
+    
+    def update_ride_status(self, ride_id: str, status: str):
+        print(f"[RealTime] Updating ride {ride_id} status to: {status}")
+        self.active_rides[ride_id] = status
+        print(f"[RealTime] Current active rides: {self.active_rides}")
+    def get_ride_status(self, ride_id: str) -> str:
+        status = self.active_rides.get(ride_id, "Not Found")
+        print(f"[RealTime] Retrieved status for ride {ride_id}: {status}")
+        return status
+\end{lstlisting}
+
+\section{Execution Results}
+
+This section presents the results of executing the GreenFleet system's implemented code. These results demonstrate the functionality and interaction of the Builder and Singleton patterns in the context of the GreenFleet system.
+
+\subsection{Real-Time System (Singleton)}
+\begin{verbatim}
+[Test] Testing Real-time System (Singleton):
+[System] Creating new RealTimeSystem instance
+[Test] Are instances the same? True
+[RealTime] Updating ride RIDE001 status to: Driver En Route
+[RealTime] Current active rides: {'RIDE001': 'Driver En Route'}
+[RealTime] Updating ride RIDE002 status to: Ride in Progress
+[RealTime] Current active rides: {'RIDE001': 'Driver En Route', 'RIDE002': 'Ride in Progress'}
+[RealTime] Retrieved status for ride RIDE001: Driver En Route
+[Test] Getting status: Driver En Route
+\end{verbatim}
+
+\subsection{Notification Builder}
+\begin{verbatim}
+[Test] Testing Notification Builder:
+[Builder] Setting notification title: Driver Arriving Soon
+[Builder] Setting notification message: Your driver John will arrive in 3 minutes
+[Builder] Setting notification channel: SMS
+[Builder] Setting notification priority: High
+[Builder] Building notification...
+
+[Notification Details]
+Title: Driver Arriving Soon
+Message: Your driver John will arrive in 3 minutes
+Channel: SMS
+Priority: High
+Timestamp: 2024-12-03 20:59:15
+
+[Builder] Setting notification title: New Ride Request
+[Builder] Setting notification message: Passenger waiting at Downtown Station
+[Builder] Setting notification channel: Push
+[Builder] Setting notification priority: Medium
+[Builder] Building notification...
+
+[Notification Details]
+Title: New Ride Request
+Message: Passenger waiting at Downtown Station
+Channel: Push
+Priority: Medium
+Timestamp: 2024-12-03 20:59:15
+\end{verbatim}
+
+
+\section{Pattern Benefits and Justification}
+
+\subsection{Builder Pattern Benefits}
+\begin{itemize}
+    \item \textbf{Step-by-Step Construction}: Allows creation of notifications with mandatory and optional parameters
+    \item \textbf{Method Chaining}: Enables fluent interface for notification creation
+    \item \textbf{Immutability}: Final notification object is immutable once built
+    \item \textbf{Flexibility}: Easy to add new notification attributes or channels
+\end{itemize}
+
+\subsection{Singleton Pattern Benefits}
+\begin{itemize}
+    \item \textbf{Single Instance}: Ensures only one RealTimeSystem instance exists
+    \item \textbf{Global State}: Maintains consistent ride status across the system
+    \item \textbf{Resource Management}: Prevents multiple instances of status tracking
+    \item \textbf{Thread Safety}: Built-in Python GIL helps manage concurrent access
+\end{itemize}
+
+\section{Usage Example}
+The system can be tested using the provided main function, which demonstrates:
+\begin{itemize}
+    \item Creating different types of notifications using the Builder pattern
+    \item Verifying Singleton pattern behavior for the RealTimeSystem
+    \item Updating and retrieving ride statuses
+    \item Interaction between notification and real-time systems
+\end{itemize}
+
+\end{document}
