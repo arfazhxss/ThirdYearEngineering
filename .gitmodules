@@ -19,3 +19,6 @@
 [submodule "2 Fall 2024/0 ECE 355 A01 B/2 Repository"]
 	path = 2 Fall 2024/0 ECE 355 A01 B/2 Repository
 	url = https://github.com/arfazhxss/embedded-microprocessor-programming
+[submodule "2 Fall 2024/0 ECE 355 A01 B/1 Lab"]
+	path = 2 Fall 2024/0 ECE 355 A01 B/1 Lab
+	url = https://github.com/arfazhxss/control-monitor-system.git
